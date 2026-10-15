@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Buenas Nuevas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buenas Nuevas — Diario cristiano / Christian daily</title>
+<meta name="description" content="Buenas Nuevas — daily Protestant Christian news from around the world, in English and Spanish. / Noticias cristianas protestantes del mundo, en inglés y español.">
+<style>
+  :root { --navy: #1a2b4a; --gold: #c9a227; --ink: #222; --muted: #6b7280; --line: #e5e7eb; --paper: #fdfcf8; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, "Times New Roman", serif; background: var(--paper); color: var(--ink); line-height: 1.7; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px 60px; }
+  .masthead { text-align: center; padding: 48px 0 12px; border-bottom: 3px double var(--navy); }
+  .masthead .brand { font-size: 13px; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-weight: 700; }
+  .masthead h1 { font-size: 54px; color: var(--navy); font-weight: 700; margin: 6px 0; }
+  .masthead .tagline { font-style: italic; color: var(--muted); font-size: 16px; }
+  .editions { padding: 30px 0; }
+  .editions h2 { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+  .ed-card { display: block; text-decoration: none; color: inherit; border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; margin-bottom: 14px; background: #fff; transition: box-shadow .15s; }
+  .ed-card:hover { box-shadow: 0 4px 14px rgba(26,43,74,.12); }
+  .ed-card .ed-num { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 12px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); }
+  .ed-card .ed-date { font-size: 24px; color: var(--navy); font-weight: 700; margin: 4px 0; }
+  .ed-card .ed-meta { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 13px; color: var(--muted); }
+  .ed-card .ed-links { margin-top: 10px; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 14px; }
+  .ed-card .ed-links a { color: var(--navy); font-weight: 700; margin-right: 16px; text-decoration: none; border-bottom: 2px solid var(--gold); }
+  footer { border-top: 3px double var(--navy); padding-top: 16px; margin-top: 30px; font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 13px; color: var(--muted); text-align: center; }
+  @media (max-width: 640px) { .masthead h1 { font-size: 38px; } }
+</style>
 </head>
 <body>
-<h1>Buenas Nuevas</h1>
-<p>Diario cristiano protestante: noticias del mundo evangelico en ingles y espanol.</p>
+<div class="wrap">
+  <header class="masthead">
+    <div class="brand">World Christian news · Noticias cristianas del mundo</div>
+    <h1>Buenas Nuevas</h1>
+    <div class="tagline">The news of the evangelical people, in one place · Las noticias del pueblo evangélico, en un solo lugar</div>
+  </header>
+
+  <section class="editions">
+    <h2>Editions · Ediciones</h2>
+
+    <div class="ed-card">
+      <div class="ed-num">Edition No. 1 · Edición N.º 1</div>
+      <div class="ed-date">October 15, 2026 · 15 de octubre de 2026</div>
+      <div class="ed-meta">23 articles · 23 artículos — Church, persecution, sports, entertainment, music, arts, education, politics, science &amp; faith</div>
+      <div class="ed-links">
+        <a href="ediciones/2026-10-15.html?lang=en">Read in English</a>
+        <a href="ediciones/2026-10-15.html?lang=es">Leer en español</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p><strong>Buenas Nuevas</strong> — daily Protestant Christian news · diario cristiano protestante.<br>
+    Original reporting · Redacción original. No third-party links · Sin enlaces de terceros.</p>
+  </footer>
+</div>
 </body>
 </html>
