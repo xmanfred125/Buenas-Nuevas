@@ -49,7 +49,17 @@ body{font-family:Georgia,"Times New Roman",serif;background:var(--paper);color:#
 html[data-lang="es"] .lang-en{display:none!important}
 html[data-lang="en"] .lang-es{display:none!important}
 @media(max-width:640px){.stories{grid-template-columns:1fr}.card-thumb{width:92px;height:92px}.card-floated{width:150px;height:150px}.brand-logo{max-width:260px}.toolbar-inner{flex-wrap:wrap}.toolbar input[type="search"]{flex-basis:100%}}
+
+/* AdSense containment (2026-10-20): auto ads must never widen the page or break the layout */
+html,body{overflow-x:clip}
+.google-auto-placed{max-width:100%!important;overflow:hidden;margin-left:auto;margin-right:auto}
+ins.adsbygoogle,ins.adsbygoogle iframe{max-width:100%!important}
+.stories>.google-auto-placed{grid-column:1/-1;justify-self:center;width:100%}
+.card-top{flex-wrap:wrap}
+.card-top>.google-auto-placed{flex:1 1 100%;min-width:0}
+.article-body .google-auto-placed{clear:both}
 </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5608405077610768" crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="masthead">
